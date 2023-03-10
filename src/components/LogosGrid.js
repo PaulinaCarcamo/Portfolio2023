@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Grid, ListItem, Typography } from '@mui/material';
 import styled from '@emotion/styled';
 import AOS from 'aos';
+
 import { logos } from '../data/techlogos.js';
 
 const Box = styled('div')({
@@ -9,33 +10,26 @@ const Box = styled('div')({
 });
 
 const LogosGrid = () => {
-
     React.useEffect(() => {
         AOS.init({ duration: 2000 });
     }, []);
 
     return (
+        <Box>
+            <Typography sx={{
+                display: 'flex',
+                py: 5,
+                px: { xs: 2, sm: 2, md: 0 },
+                backgroundColor: '#DCDCDC',
+                justifyContent: 'center',
+                color: '#5E5E5E',
+                letterSpacing: '.5rem',
+                fontSize: { xs: '.8rem', md: '1rem' }
+            }}>
+                <h2>These are some of the techologies I've been working with</h2>
+            </Typography>
 
-
-            <Box>
-
-
-                <Typography sx={{
-                    display: 'flex',
-                    backgroundColor: '#DCDCDC',
-                    justifyContent: 'center',
-                    // fontFamily: 'Blinker',
-                    color: '#5E5E5E',
-                    letterSpacing: '.5rem',
-                    py: 5,
-                    px: { xs: 2, sm: 2, md: 0 },
-                    fontSize: { xs: '.8rem', md: '1rem' }
-                }}>
-                    <h2>These are some of the techologies I've been working with</h2>
-                </Typography>
-
-
-                <div id="profile">
+            <div id="profile">
                 <Grid container
                     spacing={{ xs: 2, md: 3 }}
                     columns={{ xs: 4, sm: 12, md: 20 }}
@@ -57,8 +51,8 @@ const LogosGrid = () => {
                         </Grid>
                     ))}
                 </Grid>
-                </div>
-            </Box>
+            </div>
+        </Box>
     );
 }
 

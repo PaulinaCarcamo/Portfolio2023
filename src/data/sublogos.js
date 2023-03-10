@@ -4,7 +4,8 @@ export const logos = [
         url: 'https://www.linkedin.com/in/paulina-carcamo-7a9299269/'
     },
     {
-        img: 'https://i.postimg.cc/6647PBLz/9496432.png'
+        img: 'https://i.postimg.cc/6647PBLz/9496432.png',
+        url: 'https://drive.google.com/file/d/1uDsFspnq8rtIsOPaMZCJzeCi2ovttN5r/view?usp=sharing'
     },
     {
         img: 'https://i.postimg.cc/65d89zPv/1051275.png',

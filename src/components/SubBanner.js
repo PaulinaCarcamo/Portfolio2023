@@ -21,18 +21,17 @@ const Item = styled('div')({
     letterSpacing: '.5rem',
 });
 
-// transition: 'all 0.5s ease-out',
-// ":hover": {
-//     transform: 'scale(1.1)'
-// },
-
 const SubBanner = () => {
     return (
         <div>
             <Box>
-
-                <Item sx={{ backgroundColor: '#DCDCDC', height: { xs: '10vh', md: '2vh' }, fontSize: { xs: '.7rem', md: '1rem' }, px: { xs: 2, md: 0 } }}>
-                    <h2>If you want to know more about my background, let's get in touch</h2>
+                <Item sx={{
+                    px: { xs: 2, md: 0 },
+                    backgroundColor: '#DCDCDC',
+                    height: { xs: '10vh', md: '2vh' },
+                    fontSize: { xs: '.7rem', md: '1rem' }
+                }}>
+                    <h2>Here you will find more information about my background</h2>
                 </Item>
 
                 <Grid container
@@ -42,8 +41,6 @@ const SubBanner = () => {
                     {logos.map((item) =>
                         <Grid item xs={2} sm={2} md={4}
                         >
-
-
                             <Item sx={{
                                 transition: 'all 0.5s ease-out',
                                 ":hover": { transform: 'scale(1.1)' },

@@ -11,12 +11,12 @@ import { images } from '../data/siteimages.js'
 
 const Wrapper = styled('div')({
     backgroundImage: 'linear-gradient(#000, #4B4453)',
-})
+});
 
 const BtnItem = styled('div')({
     display: 'flex',
     gap: '.5rem',
-})
+});
 
 const Hero = () => {
     React.useEffect(() => {

@@ -10,7 +10,6 @@ import { Link } from 'react-router-dom';
 import { linkweb } from '../data/weblinks.js';
 import { Button } from '@mui/material';
 
-
 const WebCards = () => {
 
   React.useEffect(() => {
@@ -22,7 +21,6 @@ const WebCards = () => {
       pt: { xs: 4, md: 10 },
       pb: { xs: 0, md: 5 },
       backgroundImage: 'linear-gradient(#fff, #E1E1E1)',
-      // fontFamily: 'Blinker'
     }}>
 
       <Container
@@ -42,8 +40,6 @@ const WebCards = () => {
                 backgroundPosition: 'center',
                 // backgroundImage: `url(${item.img})`,
                 backgroundImage: `${item.grad}`
-
-
               }}
             >
               <Grid container>
@@ -56,24 +52,15 @@ const WebCards = () => {
                       display: 'flex',
                       flexDirection: 'column',
                       justifyContent: 'space-between'
-
                     }}
                   >
-
                     <Box>
                       <Typography color="inherit" gutterBottom
-                        sx={{
-                          fontSize: { xs: '1.5rem', md: '2.5rem' },
-                          // fontFamily: 'Blinker',
-
-                        }}
-                      >
+                        sx={{ fontSize: { xs: '1.5rem', md: '2.5rem' } }}>
                         {item.title}
                       </Typography>
 
-                      <Typography color="inherit" paragraph sx={{
-                        // fontFamily: 'Blinker' 
-                      }}>
+                      <Typography color="inherit" paragraph>
                         {item.desc}
                       </Typography>
                     </Box>
@@ -98,25 +85,6 @@ const WebCards = () => {
                         </Button>
                       </Link>
 
-
-                      {/* <Typography sx={{
-                        transition: 'all 0.5s ease-out',
-                        ":hover": {
-                          transform: 'scale(1.1)'
-                        },
-                      }}>
-                        <Link to={item.repo} style={{
-                          textDecoration: 'none',
-                          color: '#fff',
-                          // fontFamily: 'Blinker',
-                          fontWeight: 600,
-
-                        }}
-                        >
-                          REPOSITORY
-                        </Link>
-                      </Typography> */}
-
                       <Link to={item.repo} style={{
                         textDecoration: 'none',
                         fontWeight: 600,
@@ -134,10 +102,9 @@ const WebCards = () => {
                           <h3>REPOSITORY</h3>
                         </Button>
                       </Link>
-
                     </Box>
-
                   </Box>
+
                 </Grid>
               </Grid>
             </Paper>

@@ -3,7 +3,7 @@ export const linkweb = [
         title: 'Ecommerce',
         desc: '#MongoDB #Paypal',
         url: 'https://testing-phi-brown.vercel.app/',
-        repo: 'https://github.com/PaulinaCarcamo/ECommerceBack04012023',
+        repo: 'https://github.com/PaulinaCarcamo/ECommerceFront04012023',
         grad: 'linear-gradient(to right, #7C7484, #8E716A)'
     },
 

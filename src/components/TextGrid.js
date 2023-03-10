@@ -8,7 +8,6 @@ import { paragraph } from '../data/paragraph.js';
 
 const Box = styled('div')({
     backgroundColor: '#fff',
-    // fontFamily: 'Blinker'
 });
 
 const List = styled('div')({
@@ -38,11 +37,9 @@ const TextGrid = () => {
         }}>
 
             <Item sx={{
-                fontSize: { xs: '1rem', md: '1.5rem' },
+                fontSize: { xs: '.8rem', md: '1.5rem' },
                 mx: { xs: 2, md: 0 }
             }}>
-                {/* <h1>MY ROAD TO BECOMING A  </h1>
-                <h1>FULLSTACK WEB DEVELOPER</h1> */}
                 <h1>LET ME TELL YOU</h1>
                 <h1>A LITTLE BIT ABOUT ME</h1>
             </Item>
@@ -58,9 +55,7 @@ const TextGrid = () => {
                 {paragraph.map((item) =>
                     <Grid item xs={6}  >
                         <List>
-                            {/* <div data-aos="flip-left"> */}
                             <Check color='secondary' />
-                            {/* </div> */}
                             <div data-aos="fade-right">
                                 <ListItem sx={{
                                     padding: 0,

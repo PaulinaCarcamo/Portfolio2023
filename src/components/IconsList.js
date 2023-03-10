@@ -21,14 +21,14 @@ const Item = styled('div')({
 const IconsList = () => {
     return (
         <div>
-            <Box>
+            <Box sx={{ px: { xs: 2, md: 0 } }}>
                 <Grid container
                     spacing={{ xs: 1, md: 2 }}
                     columns={{ xs: 6, sm: 12, md: 20 }}
                 >
                     {icons.map((item) =>
                         <Grid item xs={2} sm={4} md={4} >
-                            <Item sx={{ py: { xs: 2, md: 5 } }}>
+                            <Item sx={{ py: { xs: 2, md: 5 }, fontSize: { xs: '.8rem', md: '1.1rem' } }}>
                                 <img src={item.img} style={{ maxHeight: '4vh', marginRight: '.5rem' }} alt="img"></img>
                                 <span>{item.desc}</span>
                             </Item>
