@@ -3,7 +3,7 @@
 In this project you will find information about the latest projects I've developed and some other useful information about my skills both in my previous career and in my recent studies in web development. 
 
 ## URL
-[![portfolio](https://i.postimg.cc/9QByY5yJ/clickmebtnlogo.png)](https://merry-kelpie-38cfb9.netlify.app/)
+[![portfolio](https://i.postimg.cc/9QByY5yJ/clickmebtnlogo.png)](https://portfolio2023-ashy.vercel.app/)
 
 ## Installation
 
