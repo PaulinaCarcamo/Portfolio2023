@@ -9,7 +9,7 @@ export const linkweb = [
 
     {
         title: 'Restaurant App',
-        desc: '#Firebase',
+        desc: '#BrowserRouter #Firestore',
         url: 'https://moonlit-bublanina-b7b196.netlify.app/',
         repo: 'https://github.com/PaulinaCarcamo/RestaurantApp02012023',
         grad: 'linear-gradient(to right, #53596E, #597A9E)'
@@ -23,14 +23,21 @@ export const linkweb = [
     },
     {
         title: 'Landing Page',
-        desc: '#Bootstrap',
+        desc: '#React #Bootstrap',
         url: 'https://paulinacarcamo.github.io/LandingPage01012023/',
         repo: 'https://github.com/PaulinaCarcamo/LandingPage01012023',
         grad: 'linear-gradient(to right, #344A53,#7C7484)',
     },
     {
+        title: 'Tasks List',
+        desc: '#ReduxPersist #Bootstrap',
+        url: 'https://paulinacarcamo.github.io/ReactReduxTasks1503/',
+        repo: 'https://github.com/PaulinaCarcamo/ReactReduxTasks1503',
+        grad: 'linear-gradient(to right, #53596E, #597A9E)'
+    },
+    {
         title: 'CRUD App',
-        desc: '#LocalStorage',
+        desc: '#JS #LocalStorage',
         url: 'https://paulinacarcamo.github.io/150922CRUDJS/',
         repo: 'https://github.com/PaulinaCarcamo/150922CRUDJS',
         grad: 'linear-gradient(to right, #7C7484, #71768C)'

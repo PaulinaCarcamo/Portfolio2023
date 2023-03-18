@@ -12,10 +12,10 @@ const Box = styled('div')({
 
 const Item = styled('div')({
     display: 'flex',
-    justifyContent: 'center',
-    alignContent: 'center',
-    alignItems: 'center',
-    justifyItems: 'center',
+    // justifyContent: 'center',
+    // alignContent: 'center',
+    // alignItems: 'center',
+    // justifyItems: 'center',
 });
 
 const IconsList = () => {
@@ -28,7 +28,11 @@ const IconsList = () => {
                 >
                     {icons.map((item) =>
                         <Grid item xs={2} sm={4} md={4} >
-                            <Item sx={{ py: { xs: 2, md: 5 }, fontSize: { xs: '.8rem', md: '1.1rem' } }}>
+                            <Item sx={{
+                                py: { xs: 2, md: 5 },
+                                fontSize: { xs: '.8rem', md: '1.1rem' },
+                                justifyContent: { xs: 'none', md: 'center' }
+                            }}>
                                 <img src={item.img} style={{ maxHeight: '4vh', marginRight: '.5rem' }} alt="img"></img>
                                 <span>{item.desc}</span>
                             </Item>

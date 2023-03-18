@@ -23,9 +23,6 @@ Start the server
 ```bash
   npm run start
 ```
-## Draft
-
-<img style="text-align: center" src="https://i.postimg.cc/x832qzdq/Untitled-3.png" alt="draft" width="500" />
 
 ## Author
 

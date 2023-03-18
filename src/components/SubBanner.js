@@ -36,7 +36,7 @@ const SubBanner = () => {
 
                 <Grid container
                     spacing={{ xs: 0, sm: 0, md: 3 }}
-                    columns={{ xs: 10, sm: 12, md: 20 }}
+                    columns={{ xs: 10, sm: 10, md: 20 }}
                 >
                     {logos.map((item) =>
                         <Grid item xs={2} sm={2} md={4}

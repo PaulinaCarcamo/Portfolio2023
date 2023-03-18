@@ -31,23 +31,33 @@ const LogosGrid = () => {
 
             {/* <div id="profile"> */}
             <Grid container
-                spacing={{ xs: 2, md: 3 }}
-                columns={{ xs: 4, sm: 12, md: 20 }}
+                spacing={{ xs: 0, sm: 1, md: 3 }}
+                columns={{ xs: 10, sm: 20, md: 20 }}
                 sx={{
-                    paddingTop: 6,
-                    paddingBottom: 6
+                    paddingTop: { xs: 2, sm: 2, md: 6 },
+                    paddingBottom: { xs: 3, sm: 3, md: 6 }
                 }}
             >
                 {logos.map(item => (
                     <Grid item xs={2} sm={4} md={4}>
                         <ListItem sx={{
-                            display: 'flex',
+                            display: { xs: 'none', sm: 'none', md: 'flex' },
                             justifyContent: 'center',
                         }}>
                             <div data-aos="zoom-in">
                                 <img src={item.img} style={{ maxHeight: '10vh' }} alt="img"></img>
                             </div>
                         </ListItem>
+
+                        <ListItem sx={{
+                            display: { xs: 'flex', sm: 'flex', md: 'none' },
+                            justifyContent: 'center',
+                        }}>
+                            <div data-aos="zoom-in">
+                                <img src={item.img} style={{ maxHeight: '6vh' }} alt="img"></img>
+                            </div>
+                        </ListItem>
+
                     </Grid>
                 ))}
             </Grid>
