@@ -40,8 +40,10 @@ const TextGrid = () => {
                 fontSize: { xs: '.8rem', md: '1.5rem' },
                 mx: { xs: 2, md: 0 }
             }}>
-                <h1>LET ME TELL YOU</h1>
-                <h1>A LITTLE BIT ABOUT ME</h1>
+                <div id="profile">
+                    <h1>LET ME TELL YOU</h1>
+                    <h1>A LITTLE BIT ABOUT ME</h1>
+                </div>
             </Item>
 
             <Grid container rowSpacing={1}

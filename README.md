@@ -1,40 +1,31 @@
 # PORTFOLIO
 
-In this project you will find information about the latest projects I've developed and some other useful information about my skills both in my previous career and in my recent studies in web development. 
+In this web portfolio you will find information about the latest projects I've been working on and some other useful information regarding my skills both in my previous career and in my recent studies in web development.
 
 ## URL
-[![portfolio](https://i.postimg.cc/9QByY5yJ/clickmebtnlogo.png)](https://portfolio2023-ashy.vercel.app/)
 
-## Installation
+Visit live portfolio [here](https://portfolio2023-ashy.vercel.app/)
 
-Install and run this project with npm
+## Technologies
 
-```bash
-npm install 
-```
-```bash
-npm start 
-```
+This project was built with [React JS](https://react.dev/), [React Scroll](https://www.npmjs.com/package/react-scroll), [Material UI](https://mui.com/) and [AOS Animation](https://www.npmjs.com/package/aos). 
 
-## Libraries
+## Run Locally
 
-- React JS
-- React Scroll
-- React Router
-- Material UI
-- AOS Animation
-
-## Deployment
-
-This project was created through production build
+Install dependencies
 
 ```bash
-  npm run build
+  npm install
 ```
 
-## Prototype
+Start the server
 
-![App Design](https://i.postimg.cc/qq9SMdzs/Untitled-1.png)
+```bash
+  npm run start
+```
+## Draft
+
+<img style="text-align: center" src="https://i.postimg.cc/x832qzdq/Untitled-3.png" alt="draft" width="500" />
 
 ## Author
 

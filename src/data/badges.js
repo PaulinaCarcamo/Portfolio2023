@@ -2,7 +2,7 @@ export const badges = [
     {
         desc: 'Developed an interface applying standard HTML5 tags, CSS, including flexbox techniques, Grids and Responsive Web Design.',
         img: 'https://images.credly.com/size/680x680/images/71ed1274-3d7c-40f4-9194-e464643719e3/image.png',
-        url: 'https://www.credly.com/org/lifelong-learning-udd/badge/html-css-landing-page'
+        url: 'https://www.credly.com/badges/d1b77932-b603-4d2a-b1cc-2b09efdd9f6c/public_url'
     },
     {
         desc: 'Developed an app integrating forms to create, modify and delete elements including persisting data in local storage.',
@@ -16,7 +16,8 @@ export const badges = [
     },
     {
         desc: 'Developed a restaurant web app including contact forms connected to firebase database. ',
-        img: 'https://images.credly.com/size/680x680/images/50a7358c-80d1-4a5d-a1d7-a9e0997de2be/image.png'
+        img: 'https://images.credly.com/size/680x680/images/50a7358c-80d1-4a5d-a1d7-a9e0997de2be/image.png',
+        url: 'https://www.credly.com/badges/e2455af7-b75b-4d90-9057-a68809be9bc7/public_url'
     },
     {
         desc: 'Developed an ecommerce website including products catalog, shopping cart and payment checkout.',
