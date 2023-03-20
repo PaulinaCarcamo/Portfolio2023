@@ -1,12 +1,11 @@
 export const linkweb = [
     {
-        title: 'Ecommerce',
+        title: 'eCommerce',
         desc: '#MongoDB #Paypal',
         url: 'https://testing-phi-brown.vercel.app/',
         repo: 'https://github.com/PaulinaCarcamo/ECommerceFront04012023',
         grad: 'linear-gradient(to right, #7C7484, #8E716A)'
     },
-
     {
         title: 'Restaurant App',
         desc: '#BrowserRouter #Firestore',
@@ -30,16 +29,9 @@ export const linkweb = [
     },
     {
         title: 'Tasks List',
-        desc: '#ReduxPersist #Bootstrap',
+        desc: '#ReduxPersist #Scss',
         url: 'https://paulinacarcamo.github.io/ReactReduxTasks1503/',
         repo: 'https://github.com/PaulinaCarcamo/ReactReduxTasks1503',
-        grad: 'linear-gradient(to right, #53596E, #597A9E)'
-    },
-    {
-        title: 'CRUD App',
-        desc: '#JS #LocalStorage',
-        url: 'https://paulinacarcamo.github.io/150922CRUDJS/',
-        repo: 'https://github.com/PaulinaCarcamo/150922CRUDJS',
         grad: 'linear-gradient(to right, #7C7484, #71768C)'
-    },
+    }
 ]
